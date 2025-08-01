@@ -6,5 +6,5 @@ for i in range(n):
 print(l)
 sum = sum(l)
 print(sum)
-avg = sum(l)/len(l)
+avg = sum/len(l)
 print(avg)
