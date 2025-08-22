@@ -1,11 +1,10 @@
-n=int(input())
-d=n
-rev=0
-while(d>0):
-    rem=d%10
-    rev=rev*10+rem
-    d=d//10
-if(rev==n):
-    print(n,"is palindrome")
+str="MADAM"
+rev_string=''
+for i in str:
+	rev_string=i+rev_string
+print(rev_string)
+if rev_string==str:
+	print(str,"is a palindrome")
 else:
-    print(n,"is not palindrome")
+	print(str,"is not a palindrome")
+
